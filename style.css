@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    padding: 42px;
+}
+.form-container {
+    background-color: rgb(95, 91, 91);
+    border-radius: 4px;
+        
+    
+}
+.form-main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 62px 42px;
+   
+    
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
+.image, img {
+    border-radius: 100%;
+    height: 55%;
+    width: 55%;
+}
+.name {
+    text-transform: capitalize;
+    color: white;
+    font-weight: 100;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+}
+.location {
+    text-transform: capitalize;
+    color: yellow;
+    font-weight: 600;
+    font-size: 16px;
+}
+.title {
+    color: white;
+}
+
+.socials {
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    
+}
+.socials, li {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 12px;
+       
+    
+}
+.git {
+  background-color: rgb(43, 42, 42);
+  border-radius: 3px; 
+  padding: 8px; 
+  width: 150%;
+  text-align: center;
+  
+}
+.socials,  button:hover { 
+    cursor: pointer;
+    
+}
+
+.front {
+    background-color: rgb(43, 42, 42);
+    border-radius: 3px;
+    padding: 8px;
+    width: 150%;
+    text-align: center;
+    
+}
+.link {
+    background-color: rgb(43, 42, 42);
+    border-radius: 3px;
+    padding: 8px;
+    width: 150%;
+    text-align: center;
+}
+.tweet {
+    background-color: rgb(43, 42, 42);
+    border-radius: 3px;
+    padding: 8px;
+    width: 150%;
+    text-align: center;
+}
+.insta {
+    background-color: rgb(43, 42, 42);
+    border-radius: 3px;
+    padding: 8px;
+    width: 150%;
+    text-align: center;
+}
+@media screen and (max-width: 769) {
+    .title, p {
+        font-size: 6px;   
+    }
+
+}
